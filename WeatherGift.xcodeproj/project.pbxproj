@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		DF5095242050E45D00BE31F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5095232050E45D00BE31F0 /* AppDelegate.swift */; };
-		DF5095262050E45D00BE31F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5095252050E45D00BE31F0 /* ViewController.swift */; };
 		DF5095292050E45D00BE31F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5095272050E45D00BE31F0 /* Main.storyboard */; };
 		DF50952B2050E45D00BE31F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF50952A2050E45D00BE31F0 /* Assets.xcassets */; };
 		DF50952E2050E45D00BE31F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF50952C2050E45D00BE31F0 /* LaunchScreen.storyboard */; };
 		DF5095392050E45D00BE31F0 /* WeatherGiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5095382050E45D00BE31F0 /* WeatherGiftTests.swift */; };
 		DF5095442050E45D00BE31F0 /* WeatherGiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5095432050E45D00BE31F0 /* WeatherGiftUITests.swift */; };
+		DF5095522050F39800BE31F0 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5095512050F39800BE31F0 /* DetailVC.swift */; };
+		DF5095542050F84C00BE31F0 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5095532050F84C00BE31F0 /* ListVC.swift */; };
+		DF5095562050F9C800BE31F0 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5095552050F9C800BE31F0 /* PageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		DF5095202050E45D00BE31F0 /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5095232050E45D00BE31F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF5095252050E45D00BE31F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF5095282050E45D00BE31F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF50952A2050E45D00BE31F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF50952D2050E45D00BE31F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		DF50953F2050E45D00BE31F0 /* WeatherGiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherGiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5095432050E45D00BE31F0 /* WeatherGiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGiftUITests.swift; sourceTree = "<group>"; };
 		DF5095452050E45D00BE31F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5095512050F39800BE31F0 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		DF5095532050F84C00BE31F0 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		DF5095552050F9C800BE31F0 /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				DF5095232050E45D00BE31F0 /* AppDelegate.swift */,
-				DF5095252050E45D00BE31F0 /* ViewController.swift */,
+				DF5095552050F9C800BE31F0 /* PageVC.swift */,
+				DF5095512050F39800BE31F0 /* DetailVC.swift */,
+				DF5095532050F84C00BE31F0 /* ListVC.swift */,
 				DF5095272050E45D00BE31F0 /* Main.storyboard */,
 				DF50952A2050E45D00BE31F0 /* Assets.xcassets */,
 				DF50952C2050E45D00BE31F0 /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF5095262050E45D00BE31F0 /* ViewController.swift in Sources */,
+				DF5095542050F84C00BE31F0 /* ListVC.swift in Sources */,
+				DF5095562050F9C800BE31F0 /* PageVC.swift in Sources */,
 				DF5095242050E45D00BE31F0 /* AppDelegate.swift in Sources */,
+				DF5095522050F39800BE31F0 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
